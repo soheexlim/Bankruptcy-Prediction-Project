@@ -74,14 +74,52 @@ Engineered features:
 - 3D surface plot: `log_current_liabilities`, `market_value`, and `log_current_assets`
 - <img src="images/3d_surface_logliab_marketval_logassets.png" alt="3D Regression Surface Plot" width="500">
 
-## 8. Challenges and Limitations
+## 8. Key Findings and Stakeholder Takeaways
+
+- **Asset Growth Slower Than Liability Growth**  
+  Across all models, current assets increase with rising current liabilities but at a **less than proportional rate**. This imbalance may push companies toward a **current ratio below 1**, a common red flag for financial distress or pending bankruptcy.
+
+- **Strong Correlation Between Financial Indicators**  
+  Net sales and long-term debt are **statistically significant predictors** of asset levels, while EBITDA has limited explanatory power in this context. This suggests revenue and debt obligations are more closely tied to solvency.
+
+- **Significance of Market Value Interaction is Limited**  
+  Market value shows **minimal direct influence** on current assets, but its interaction with current liabilities does have a marginal effect—indicating **firm size alone isn’t a strong predictor** unless considered alongside liabilities.
+
+- **3D Surface Plot Reveals Structural Patterns**  
+  The regression surface plot reveals a **plane-like relationship** between log liabilities, market value, and log current assets, reinforcing the additive nature of financial pressure on asset reporting.
+
+- **Visualizations Validate Regression Findings**  
+  All plots—scatter, violin, and heatmaps—visually reinforce the **underlying regression logic**, confirming the stability and direction of the estimated coefficients.
+
+---
+
+## 9. Actionable Recommendations
+
+- **Monitor Current Ratio and Liability Growth**  
+  Firms should regularly track their current ratio and ensure liabilities are not growing faster than assets, especially in industries with high operational volatility.
+
+- **Enhance Reporting on Net Sales and Long-Term Debt**  
+  As these two metrics are key predictors of asset size, **more granular and real-time reporting** can improve internal forecasting and creditor confidence.
+
+- **Deprioritize EBITDA in Short-Term Solvency Analysis**  
+  EBITDA’s weak predictive power in this context suggests it may be less useful for **short-term liquidity assessments**, and firms should avoid over-relying on it for bankruptcy risk evaluations.
+
+- **Use Visual Diagnostics in Financial Auditing**  
+  Incorporate plots like fitted-vs-actual and 3D regression surfaces into regular **internal risk reviews** to visually flag deteriorating asset-liability dynamics.
+
+- **Test for Broader Macroeconomic or Sectoral Controls**  
+  Consider expanding models with macro indicators and industry fixed effects to capture **external shocks** that may distort liability-to-asset dynamics (e.g., inflation, interest rate hikes, sector downturns).
+
+---
+
+## 10. Challenges and Limitations
 - No comparison with **non-bankrupt firms**, limiting generalizability
 - Missing macroeconomic variables (e.g., interest rate, inflation)
 - No **industry fixed effects** or time-specific shocks
 - Results may suffer from **endogeneity** (reverse causality)
 - **EBITDA** shows minimal predictive power, possibly due to noise or inconsistencies in reporting
 
-## 9. Future Directions
+## 11. Future Directions
 - Add **control group of alive firms** for contrast
 - Explore **machine learning models** for prediction (e.g., XGBoost, Logistic Regression)
 - Include **industry/time fixed effects** and macro indicators
