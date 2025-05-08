@@ -65,8 +65,6 @@ Engineered features:
 - <img src="images/scatter_current_liabilities_vs_assets.png" alt="Scatterplot: Liabilities vs Assets" width="500">
 - Boxplot of Net Sales by EBITDA Quartile
 - <img src="images/box_net_sales_ebitda.png" alt="Boxplot of Net Sales by EBITDA Quartile" width="500">
-- Log-Log Regression Plot
-- <img src="images/loglog_regression_plot.png" alt="Log-Log Regression Plot" width="500">
 - Quadratic Curve of Liabilities and Assets
 - <img src="images/quadratic_curve_liabilities_assets.png" alt="Quadratic Regression Curve" width="500">
 - Violin Plot of `log_current_assets` by `ebitda` quartile
