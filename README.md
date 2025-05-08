@@ -75,6 +75,8 @@ Engineered features:
 ## 7. Key Visualizations
 - Scatterplot: `current_liabilities` vs `current_assets`
 - <img src="images/scatter_current_liabilities_vs_assets.png" alt="Scatterplot: Liabilities vs Assets" width="500">
+- Boxplot of Net Sales by EBITDA Quartile
+- <img src="images/box_net_sales_ebitda.png" alt="Boxplot of Net Sales by EBITDA Quartile" width="500">
 - Log-Log Regression Plot
 - <img src="images/loglog_regression_plot.png" alt="Log-Log Regression Plot" width="500">
 - Quadratic Curve of Liabilities and Assets
