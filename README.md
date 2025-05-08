@@ -72,7 +72,7 @@ Engineered features:
 
 --
 
-## 7. Visualizations
+## 7. Key Visualizations
 - Scatterplot: `current_liabilities` vs `current_assets`
 - <img src="images/scatter_current_liabilities_vs_assets.png" alt="Scatterplot: Liabilities vs Assets" width="500">
 - Log-Log Regression Plot
