@@ -1,4 +1,4 @@
-# Bankruptcy Prediction Based on Financial Indicators of Domestic Companies (1999–2018)
+# Financial Risk Analysis of U.S. Public Companies (1999–2018)
 
 ## 1. Project Overview
 This project investigates whether higher current liabilities are associated with lower current assets in bankrupt U.S. public companies, using panel data from 1999 to 2018. The analysis focuses exclusively on failed firms listed on NYSE and NASDAQ to explore how liability pressure may precede insolvency. Stata was used for econometric modeling, SQL for data cleaning, and Jupyter Notebook for visualization.
